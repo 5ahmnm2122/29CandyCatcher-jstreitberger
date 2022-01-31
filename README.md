@@ -5,7 +5,7 @@ Game with three scenes, in which you try to collect falling candy in a limited t
 
 ### Development platform:
 + Windows 10
-+ Unity 2019.1.14f1
++ Unity 2020.3.0f1
 
 ### Target platform:
 WebGl 960x600
