@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NameTransfer : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static string playerNameString;
+
+    public Text playerNameText;
+
+   
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        playerNameText.text = playerNameString;
     }
 }
